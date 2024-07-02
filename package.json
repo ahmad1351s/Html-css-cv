@@ -1,0 +1,16 @@
+{
+  "name": "html-css-cv",
+  "version": "1.0.0",
+  "description": "Meine Projekt war ein CV. Das war meine erste Projekt mit HTML und CSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:watch": "sass --watch $(pwd)/src/scss:$(pwd)/build/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.77.2"
+  }
+}

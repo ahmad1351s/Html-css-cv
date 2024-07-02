@@ -1,0 +1,57 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: antiquewhite;
+
+}
+
+header {
+  text-align: center;
+  
+}
+
+
+
+.arbeitserfahrung {
+  font-size: 30px;
+  padding: 15px 30px 15px 30px;
+  text-align: center;
+}
+
+
+
+.spacex {
+  padding: 622px 122px 790px 136px;
+}
+
+.info {
+  border-top-style: solid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.adresse {
+  padding: 53px 61px 60px 63px;
+  background-color: #7e9eda;
+}
+
+.schule {
+  padding: 43px 61px 60px 63px;
+}
+
+.Schule1 {
+  border-top-style: solid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.adresse p {
+  color: #F8F9FB;
+}
+
+/*# sourceMappingURL=style.css.map */
+
