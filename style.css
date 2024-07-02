@@ -1,51 +1,108 @@
-.title {
-    margin: 50px 0 0 0;  
-    font-size: 96px;
-    text-align: center;
-}
-.title2 {
+header {
     font-size: 50px;
     text-align: center;
+}
+.text {
+    font-size: larger;
+    text-align: left;
     margin: 0 0 0 0;
 }
 body{
+    display: grid;
+    grid-template-columns: 700px 2fr;
+}
+
+.info {
     display: flex;
-    flex-direction: row
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
-.blau-box{
-    font-size: 30px;
-    padding: 15px 30px 15px 30px;
-    text-align: center;
-}
-.column2{
-    padding: 85px 121px 0px 136px;
-    height: 114px;
-} 
-.column3{
-    padding: 622px 122px 790px 136px;
-}
-.info{
+
+
+.info1{
     border-top-style: solid;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
-.adresse{
-    padding: 53px 61px 60px 63px;
-    background-color:#364156;
-    ;
-}
-.schule{
+
+
+.kontakt {
     padding: 43px 61px 60px 63px;
+    color: white;
+    background-color: #394975;
 }
-.Schule1{
+.schule {
+    padding: 43px 61px 60px 63px;
+    color: white;
+    background-color: rgb(147, 184, 219);
+}
+
+.block1 {
     border-top-style: solid;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    color: white;
 } 
-.adresse p{
-    color:#F8F9FB;
+
+.block2 {
+    border-top-style: solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.block3 {
+    border-top-style: solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+} 
+
+.skills {
+    margin-top:  5rem;
+
+}
+
+.contain {
+    font-size: xlarge;
+    text-align: center;
+    display: block;
+    padding: 3px 0px 3px 0px;
+    color: white;
+    background-color:#394975;
+    
+} 
+
+
+.schule1 {
+ 
+    border-top-style: solid;
+    color: white;
+    background-color: rgb(147, 184, 219);
+
+}
+
+sidebar {
+  width: fit-content;
+  
+}
+
+.main-inner {
+    width: 700px;
+    padding: 30px;
+    height: 100%;
+    margin: auto;
+
+
+
+
 }

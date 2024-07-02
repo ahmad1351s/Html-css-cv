@@ -1,0 +1,31 @@
+@use "sidebar";
+
+.title {
+    margin: 50px 0 0 0;  
+    font-size: 96px;
+    text-align: center;
+}
+.title2 {
+    font-size: 50px;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+body{
+    display: flex;
+    flex-direction: row
+}
+.blau-box{
+    font-size: 30px;
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+}
+.column2{
+    padding: 85px 121px 0px 136px;
+    height: 114px;
+} 
+.column3{
+    padding: 622px 122px 790px 136px;
+}
+
+
+
